@@ -1,0 +1,158 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } 
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+} 
+
+body {
+    background-color: black;
+    color: #fff;
+    font-family: 'Overpass', sans-serif;;
+} 
+
+/* Thank You Card */
+.ratingEnd {
+    background-color: hsl(216, 12%, 8%);
+    position: absolute;
+    margin-top: 12.75rem;
+    margin-left: 32.75rem;
+    border-radius: 2rem;
+    padding: 2rem 2.25rem;
+    width: 27.25rem;
+    text-align: center;
+    display: none;
+} 
+
+.receipt{
+    margin-top: 1rem;
+    width: 10.5rem;
+}
+
+.chosenNum{
+    border-radius: 2rem;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(25, 97%, 53%);
+    width: fit-content;
+    margin: auto;
+    padding: .4rem 1.25rem;
+    margin-top: 1.75rem;
+}
+
+.closing{
+    margin-top: -.5rem;
+    color:hsl(216, 12%, 54%);
+    line-height: 1.6rem;
+}
+
+/* .thanks{
+    font-size: 2rem;
+    font-weight: 700;
+} */
+
+/* Choose your Rating Card */
+.ratingStart{
+    background-color: hsl(216, 12%, 8%);
+    /* margin: auto; */
+    text-align: left;
+    width: 27.25rem;
+    margin-top: 11rem;
+    margin-left: 32.75rem;
+    position: absolute;
+    border-radius: 2rem;
+    padding: 2rem 2.25rem;
+    
+} 
+
+
+
+.heading{
+    padding: 0rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.feedbackTxt{
+    font-size: 1rem;
+    line-height: 1.6rem;
+    color: hsl(216, 12%, 54%);
+    margin-top: -1rem;
+}
+
+.ratingList{
+    list-style-type: none;
+    padding: 1.25rem 0rem 1.25rem 0rem;
+    display: flex;
+    justify-content: space-between;
+} 
+
+.ratingList .num{
+   background-color: hsl(213, 19%, 18%); 
+   border-radius: 50%;
+   padding: 1rem 1.3rem;
+   color: hsl(216, 12%, 54%);
+}
+
+.ratingList .num:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+} 
+
+.ratingList .num:active{
+    background-color: hsl(216, 12%, 54%);
+    color: #fff;
+}
+
+.ratingList .numClick{
+    background-color: hsl(216, 12%, 54%);
+    color: #fff;
+    
+}
+
+.star{
+    border-radius: 50%;
+    width: 3.25rem;
+    height: 3.25rem;
+    background-color: hsl(213, 19%, 18%); 
+    position: relative;
+    
+}
+
+.starImg{
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 33%;
+    left: 33%;
+    
+} 
+
+.btnDiv{
+    position: relative;
+    text-align: center;
+}
+
+.btn{
+    border-radius: 2rem;
+    text-align: center;
+    padding: 1rem 9rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    letter-spacing: .125rem;
+    width: 100%;
+    font-size: 1rem;
+} 
+
+.btn:hover{
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
